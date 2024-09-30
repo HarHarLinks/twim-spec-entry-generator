@@ -7,7 +7,7 @@ from msc_chart_generator.msc_chart import MSCChart, ChartType
 
 
 TEXT = """
-Here's your weekly spec update! The heart of Matrix is the specification - and this is modified by Matrix Spec Change (MSC) proposals. Learn more about how the process works at https://spec.matrix.org/proposals.
+Here's your weekly spec update! The heart of Matrix is the specification - and this is modified by Matrix Spec Change (MSC) proposals. Learn more about how the process works at <https://spec.matrix.org/proposals>.
 
 
 ## MSC Status
