@@ -1,4 +1,5 @@
 import re
+import os
 from sys import stdin
 from datetime import datetime, timedelta, timezone
 from github import Github
@@ -30,7 +31,7 @@ Here's your weekly spec update! The heart of Matrix is the specification - and t
 
 def main():
     github_repo = "matrix-org/matrix-doc"
-    github_token = ""
+    github_token = os.environ["GITHUB_TOKEN"]
     g = Github(github_token)
     r = g.get_repo(github_repo)
     msc_chart = MSCChart(pygithub=g)
